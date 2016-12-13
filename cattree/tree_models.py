@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 from sklearn.utils import check_array
 
-from .transformations import OneHotDecoder
+from .one_hot_decoder import OneHotDecoder
 
 __author__ = "Nick Dingwall"
 

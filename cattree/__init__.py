@@ -1,4 +1,4 @@
-from .transformations import OneHotDecoder
+from .one_hot_decoder import OneHotDecoder
 from .tree_models import CategoricalDecisionTreeClassifier
 from .tree_models import CategoricalDecisionTreeRegressor
 from .tree_models import CategoricalRandomForestClassifier
